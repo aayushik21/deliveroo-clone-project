@@ -42,14 +42,14 @@ const HomeScreen = () => {
       {/* Header */}
       <View className=" bg-gradient-to-r from-blue-500 flex-row pb-4 items-center mx-4 space-x-2">
         <Ionicons name="paper-plane-sharp" size={20} color="#FF6347" />
-        {/* <Image
+         <Image
           source={{
             uri: "https://links.papareact.com/wru",
           }}
           className="h-7 w-7 bg-gray-300 p-4 rounded-full"
-        /> */}
+        /> 
         <View className="flex-1">
-          {/* <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text> */}
+           <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text> 
           <Text className="font-bold text-xl px-1">
             Current Location
             <AntDesign name="down" size={15} color="gray" />
